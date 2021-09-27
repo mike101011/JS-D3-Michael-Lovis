@@ -11,14 +11,13 @@ switch (true) {
         case (mathGrades[ind]<60):
             document.getElementById('message').style.backgroundColor="red";
             break;
-        case ((60<=mathGrades[ind])&&(mathGrades[ind]<70)):
+        case ((mathGrades[ind]<70)):
             document.getElementById('message').style.backgroundColor="yellow";
             break;
-        case((70<=mathGrades[ind])&&(mathGrades[ind]<100)):
+        case((mathGrades[ind]<100)):
             document.getElementById('message').style.backgroundColor="green";
             break;
         default:
             document.getElementById('message').style.backgroundColor="blue";
-            break;
     }
 document.getElementById('message').innerHTML=students[ind]+" has reached "+mathGrades[ind]+" points in Math this season."
