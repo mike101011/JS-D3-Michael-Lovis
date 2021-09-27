@@ -22,5 +22,4 @@ grade=(i)=>{
 }
 for (let i = 0; i < names.length; i++) {
     grade(i);
-    
 }
