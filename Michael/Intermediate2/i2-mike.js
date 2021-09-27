@@ -8,6 +8,7 @@ for (let j = 0; j < 100; j++) {
             break;
         case ((j+1)%5===0):
             document.write("Buzz <br>");
+            break;
         default:
             document.write((j+1)+"<br>");
             break;
